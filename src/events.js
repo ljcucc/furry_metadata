@@ -99,6 +99,20 @@ export const eventsList = [
     keywords: ['Beastoria', 'ビーストリア', '野郎系男子同人展', '龍山文創基地'],
   },
   {
+    value: 'beastages-4',
+    series: 'beastages',
+    year: 2027,
+    en: 'BeastAges 4',
+    zh: '獸紀元 4',
+    ja: 'BeastAges 4',
+    startDate: '2027-02-21',
+    endDate: '2027-02-21',
+    // 獸人／人外向 ONLY 活動販售會（單日），官方屆數用羅馬數字時為 BeastAges IV
+    location: { en: 'Kaohsiung Exhibition Center, Kaohsiung, Taiwan', zh: '高雄・高雄展覽館', ja: '台湾・高雄（高雄展覧館）' },
+    website: 'https://www.beastages.com/',
+    keywords: ['BeastAges IV', '獸紀元', 'ONLY', '活動販售會'],
+  },
+  {
     value: 'furryteaparty-2027',
     series: 'furryteaparty',
     year: 2027,
