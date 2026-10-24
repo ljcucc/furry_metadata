@@ -4,7 +4,7 @@
 
 ## Contributing
 
-This list is the shared source of truth for FurTracker, so entries are kept consistent across languages (naming, keywords, formats) by the maintainers.
+This list is a community-maintained, shared metadata source, so entries are kept consistent across languages (naming, keywords, formats) by the maintainers.
 
 If you'd like a new species or event edition added, or a name corrected or changed, the easiest way is to [open an issue](https://github.com/ljcucc/furry_metadata/issues) — no coding needed. Just tell us what you'd like to see, ideally with whatever details you have (official name, date, website, aliases people actually use). Issues in English or Traditional Chinese (Taiwan) are both welcome, and a maintainer will take it from there.
 

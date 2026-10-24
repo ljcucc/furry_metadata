@@ -1,7 +1,7 @@
 {
   "name": "furry_metadata",
   "version": "0.1.0",
-  "description": "Furry Metadata: shared species and furry event editions lists for FurTracker and friends",
+  "description": "Furry Metadata: community-maintained species and furry event editions lists",
   "type": "module",
   "main": "src/index.js",
   "exports": {
@@ -12,7 +12,9 @@
   "private": true,
   "keywords": [
     "furry",
-    "furtracker",
-    "species"
+    "fandom",
+    "metadata",
+    "species",
+    "events"
   ]
 }
