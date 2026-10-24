@@ -12,6 +12,15 @@ If you'd like a new species or event edition added, or a name corrected or chang
 
 If you enjoy working with Git, you're also very welcome to open an issue first (or reference an existing one) and follow up with a pull request — it will be reviewed and merged after a consistency check.
 
+## Repository layout
+
+- `data/species.json` — species list (plain JSON)
+- `data/events.json` — event edition list (plain JSON)
+- `src/species.js` / `src/events.js` — helper functions only (picker options, lookups, event name matching); no data lives here
+- `src/index.js` — re-exports everything
+
+The lists are plain JSON so they can be read and reviewed without any coding knowledge; all logic stays in small JS modules.
+
 ## events data format
 
 Events are stored per edition (one entry per edition of the same event):

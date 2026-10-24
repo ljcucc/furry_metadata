@@ -12,6 +12,15 @@ Furry Open Data 共用的 metadata 清單：物種（species）與獸聚活動�
 
 喜歡動 Git 的話，也歡迎先開（或先找一個）issue，再送 pull request——我們會檢查格式一致性後合併。
 
+## 專案結構
+
+- `data/species.json` — 物種清單（純 JSON）
+- `data/events.json` — 活動屆次清單（純 JSON）
+- `src/species.js` / `src/events.js` — 只放輔助函式（選項組合、查詢、活動名稱比對），不存放資料
+- `src/index.js` — 統一轉出口
+
+清單本體都是純 JSON，不懂程式也能直接閱讀與檢查；所有邏輯都在小小的 JS 模組裡。
+
 ## events 資料格式
 
 活動以「屆次」為單位（同一活動跨屆各一筆），每個項目：

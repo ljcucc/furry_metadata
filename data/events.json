@@ -1,0 +1,291 @@
+[
+  {
+    "value": "utfg-2026",
+    "series": "utfg",
+    "year": 2026,
+    "en": "UTFG 2026",
+    "zh": "UTFG 2026",
+    "ja": "UTFG 2026",
+    "startDate": "2026-06-26",
+    "endDate": "2026-06-29",
+    "location": {
+      "en": "Sheraton Hsinchu Hotel, Hsinchu, Taiwan",
+      "zh": "新竹・豐邑喜來登大飯店",
+      "ja": "台湾・新竹（シェラトン新竹ホテル）"
+    },
+    "theme": {
+      "en": "World Journey",
+      "zh": "環遊世界"
+    },
+    "website": "https://www.utfg.tw/",
+    "keywords": [
+      "Unfurgettable Taiwan Furry Gathering",
+      "環遊世界",
+      "World Journey",
+      "獸聚"
+    ]
+  },
+  {
+    "value": "infurnity-2026",
+    "series": "infurnity",
+    "year": 2026,
+    "en": "Infurnity 2026",
+    "zh": "獸無限 2026",
+    "ja": "Infurnity 2026",
+    "startDate": "2026-10-30",
+    "endDate": "2026-11-02",
+    "location": {
+      "en": "Fullon Hotel Lihpao Land, Taichung, Taiwan",
+      "zh": "台中・福容大飯店（麗寶樂園區）",
+      "ja": "台湾・台中（麗宝フルコンホテル）"
+    },
+    "theme": {
+      "en": "The Last of Furs",
+      "zh": "餘獸重生"
+    },
+    "website": "https://www.infurnity.com/",
+    "keywords": [
+      "獣無限",
+      "インファーニティ",
+      "The Last of Furs",
+      "餘獸重生"
+    ]
+  },
+  {
+    "value": "soyam-2",
+    "series": "soyam",
+    "year": 2026,
+    "en": "Soyam 2",
+    "zh": "獸宴 2",
+    "ja": "獣宴 2",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-05",
+    "website": "https://www.facebook.com/furgenda",
+    "keywords": [
+      "Soyam",
+      "獣宴",
+      "ソヤム",
+      "辦桌",
+      "Furgenda"
+    ]
+  },
+  {
+    "value": "paroto-2026",
+    "series": "paroto",
+    "year": 2026,
+    "en": "Paroto Solo Live",
+    "zh": "帕洛特專場",
+    "ja": "パロト単独ライブ",
+    "startDate": "2026-12-06",
+    "endDate": "2026-12-06",
+    "keywords": [
+      "Paroto",
+      "帕洛特",
+      "パロト",
+      "專場",
+      "単独ライブ"
+    ]
+  },
+  {
+    "value": "jmof-2027",
+    "series": "jmof",
+    "year": 2027,
+    "en": "JMoF 2027",
+    "zh": "JMoF 2027",
+    "ja": "JMoF 2027",
+    "startDate": "2027-01-08",
+    "endDate": "2027-01-11",
+    "location": {
+      "en": "Aichi Sky Expo, Tokoname, Aichi, Japan",
+      "zh": "日本愛知縣常滑市・Aichi Sky Expo（愛知縣國際展示場）",
+      "ja": "愛知県常滑市・Aichi Sky Expo（愛知県国際展示場）"
+    },
+    "theme": {
+      "en": "Lost in Transit －Adrift at Centrair－",
+      "zh": "Lost in Transit －新特麗亞漂流記－",
+      "ja": "ロスト・イン・トランジット －セントレア漂流記－"
+    },
+    "website": "https://www.jmof.jp/",
+    "keywords": [
+      "Japan Meeting of Furries",
+      "日本獸聚",
+      "Lost in Transit",
+      "新特麗亞漂流記",
+      "セントレア漂流記",
+      "ロスト・イン・トランジット"
+    ]
+  },
+  {
+    "value": "beastoria-2027",
+    "series": "beastoria",
+    "year": 2027,
+    "en": "Beastoria",
+    "zh": "野狼祭",
+    "ja": "野狼祭",
+    "startDate": "2027-01-16",
+    "endDate": "2027-01-16",
+    "location": {
+      "en": "Longshan Cultural and Creative Base, Taipei, Taiwan",
+      "zh": "台北・龍山文創基地（龍山寺旁）",
+      "ja": "台湾・台北（龍山文創基地）"
+    },
+    "website": "https://www.beastoriatw.com/",
+    "keywords": [
+      "Beastoria",
+      "ビーストリア",
+      "野郎系男子同人展",
+      "龍山文創基地"
+    ]
+  },
+  {
+    "value": "beastages-4",
+    "series": "beastages",
+    "year": 2027,
+    "en": "BeastAges 4",
+    "zh": "獸紀元 4",
+    "ja": "BeastAges 4",
+    "startDate": "2027-02-21",
+    "endDate": "2027-02-21",
+    "location": {
+      "en": "Kaohsiung Exhibition Center, Kaohsiung, Taiwan",
+      "zh": "高雄・高雄展覽館",
+      "ja": "台湾・高雄（高雄展覧館）"
+    },
+    "website": "https://www.beastages.com/",
+    "keywords": [
+      "BeastAges IV",
+      "獸紀元",
+      "ONLY",
+      "活動販售會"
+    ]
+  },
+  {
+    "value": "furryteaparty-2027",
+    "series": "furryteaparty",
+    "year": 2027,
+    "en": "FurryTeaParty 2027",
+    "zh": "以茶會毛 2027",
+    "ja": "FurryTeaParty 2027",
+    "startDate": "2027-02-27",
+    "endDate": "2027-03-02",
+    "location": {
+      "en": "Kaohsiung Main Public Library, Kaohsiung, Taiwan",
+      "zh": "高雄・高雄市立圖書館總館",
+      "ja": "台湾・高雄（高雄市立図書館総館）"
+    },
+    "theme": {
+      "en": "Taiwan Sunrise",
+      "zh": "島嶼之光"
+    },
+    "website": "https://www.furryteaparty.com/",
+    "keywords": [
+      "FURRY TEA PARTY",
+      "FurryTeaParty",
+      "FTP",
+      "Taiwan Sunrise",
+      "島嶼之光",
+      "以茶會毛"
+    ]
+  },
+  {
+    "value": "myfurcon-2027",
+    "series": "myfurcon",
+    "year": 2027,
+    "en": "MYFurCon 2027",
+    "zh": "MYFurCon 2027",
+    "ja": "MYFurCon 2027",
+    "startDate": "2027-04-24",
+    "endDate": "2027-04-26",
+    "location": {
+      "en": "Hotel Armada Petaling Jaya, Selangor, Malaysia",
+      "zh": "馬來西亞雪蘭莪・Petaling Jaya（Hotel Armada）",
+      "ja": "マレーシア・ペタリングジャヤ（Hotel Armada Petaling Jaya）"
+    },
+    "theme": {
+      "en": "FurGear"
+    },
+    "website": "https://myfur.org/",
+    "keywords": [
+      "MYFur",
+      "Malaysia Furry Convention",
+      "馬來西亞",
+      "FurGear"
+    ]
+  },
+  {
+    "value": "utfg-2027",
+    "series": "utfg",
+    "year": 2027,
+    "en": "UTFG 2027",
+    "zh": "UTFG 2027",
+    "ja": "UTFG 2027",
+    "startDate": "2027-06-11",
+    "endDate": "2027-06-14",
+    "location": {
+      "en": "Sheraton Hsinchu Hotel, Hsinchu, Taiwan",
+      "zh": "新竹・豐邑喜來登大飯店",
+      "ja": "台湾・新竹（シェラトン新竹ホテル）"
+    },
+    "theme": {
+      "en": "Radiant Stellar",
+      "zh": "璀璨舞台"
+    },
+    "website": "https://www.utfg.tw/",
+    "keywords": [
+      "Unfurgettable Taiwan Furry Gathering",
+      "璀璨舞台",
+      "Radiant Stellar",
+      "獸聚"
+    ]
+  },
+  {
+    "value": "siampaws-2027",
+    "series": "siampaws",
+    "year": 2027,
+    "en": "SiamPaws 2027",
+    "zh": "SiamPaws 2027",
+    "ja": "SiamPaws 2027",
+    "startDate": "2027-07-10",
+    "endDate": "2027-07-12",
+    "location": {
+      "en": "The Emerald Hotel Ratchada, Bangkok, Thailand",
+      "zh": "泰國曼谷・The Emerald Hotel Ratchada",
+      "ja": "タイ・バンコク（The Emerald Hotel ラチャダー）"
+    },
+    "theme": {
+      "en": "Motion Unleashed"
+    },
+    "website": "https://www.siampaws.com/",
+    "keywords": [
+      "Motion Unleashed",
+      "泰國獸聚"
+    ]
+  },
+  {
+    "value": "furban-jungle-2027",
+    "series": "furban-jungle",
+    "year": 2027,
+    "en": "Furban Jungle 2027",
+    "zh": "Furban Jungle 2027",
+    "ja": "Furban Jungle 2027",
+    "startDate": "2027-08-07",
+    "endDate": "2027-08-09",
+    "location": {
+      "en": "Eaton HK, Yau Ma Tei, Kowloon, Hong Kong",
+      "zh": "香港・油麻地 Eaton HK（逸東酒店）",
+      "ja": "香港・油麻地（Eaton HK）"
+    },
+    "theme": {
+      "en": "Street Life",
+      "zh": "街頭生活"
+    },
+    "website": "https://www.furban.net/",
+    "keywords": [
+      "Hong Kong Furcon",
+      "HKFC",
+      "香港獸展",
+      "街頭生活",
+      "Street Life"
+    ]
+  }
+]
