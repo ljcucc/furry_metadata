@@ -60,6 +60,11 @@
     "ja": "獣宴 2",
     "startDate": "2026-12-05",
     "endDate": "2026-12-05",
+    "location": {
+      "en": "Chengde Li Activity Center, North District, Tainan, Taiwan",
+      "zh": "台南・北區成德里活動中心",
+      "ja": "台湾・台南（北区成德里活動センター）"
+    },
     "website": "https://www.facebook.com/furgenda",
     "keywords": [
       "Soyam",
