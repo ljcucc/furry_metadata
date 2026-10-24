@@ -85,6 +85,20 @@ export const eventsList = [
     keywords: ['Japan Meeting of Furries', '日本獸聚', 'Lost in Transit', '新特麗亞漂流記', 'セントレア漂流記', 'ロスト・イン・トランジット'],
   },
   {
+    value: 'beastoria-2027',
+    series: 'beastoria',
+    year: 2027,
+    en: 'Beastoria',
+    zh: '野狼祭',
+    ja: '野狼祭',
+    startDate: '2027-01-16',
+    endDate: '2027-01-16',
+    // 野郎系男子同人展（單日），場地在龍山寺旁的龍山文創基地
+    location: { en: 'Longshan Cultural and Creative Base, Taipei, Taiwan', zh: '台北・龍山文創基地（龍山寺旁）', ja: '台湾・台北（龍山文創基地）' },
+    website: 'https://www.beastoriatw.com/',
+    keywords: ['Beastoria', 'ビーストリア', '野郎系男子同人展', '龍山文創基地'],
+  },
+  {
     value: 'furryteaparty-2027',
     series: 'furryteaparty',
     year: 2027,
