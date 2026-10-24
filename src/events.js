@@ -172,6 +172,21 @@ export const eventsList = [
     website: 'https://www.siampaws.com/',
     keywords: ['Motion Unleashed', '泰國獸聚'],
   },
+  {
+    value: 'furban-jungle-2027',
+    series: 'furban-jungle',
+    year: 2027,
+    en: 'Furban Jungle 2027',
+    zh: 'Furban Jungle 2027',
+    ja: 'Furban Jungle 2027',
+    // 官方會期 8/7（六）–8/8（日），最後一天為週日，endDate 依慣例延至週一
+    startDate: '2027-08-07',
+    endDate: '2027-08-09',
+    location: { en: 'Eaton HK, Yau Ma Tei, Kowloon, Hong Kong', zh: '香港・油麻地 Eaton HK（逸東酒店）', ja: '香港・油麻地（Eaton HK）' },
+    theme: { en: 'Street Life', zh: '街頭生活' },
+    website: 'https://www.furban.net/',
+    keywords: ['Hong Kong Furcon', 'HKFC', '香港獸展', '街頭生活', 'Street Life'],
+  },
 ]
 
 function normalize(text) {
