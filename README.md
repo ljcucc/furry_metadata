@@ -22,7 +22,7 @@ Events are stored per edition (one entry per edition of the same event):
 | `series` | Event series ID shared across editions (e.g. `utfg`) |
 | `year` | Edition year |
 | `en` / `zh` / `ja` | Display names per language |
-| `startDate` / `endDate` | Event dates (ISO `YYYY-MM-DD`, including check-in / setup days) |
+| `startDate` / `endDate` | Event dates (ISO `YYYY-MM-DD`, including check-in / setup days). Convention: when a multi-day event ends on a Sunday, `endDate` is extended to the following Monday. |
 | `location` | Venue `{ en, zh, ja }` (optional) |
 | `theme` | Edition theme `{ en, zh, ja? }` (optional; fall back to English when no official Japanese translation exists) |
 | `website` | Official website (optional) |

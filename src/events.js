@@ -4,7 +4,8 @@
 // - series：活動系列 ID（同一活動跨屆共用），新增同系列屆次時沿用
 // - year：屆次年份（取開始日所在年份）
 // - en / zh / ja：各語系顯示名
-// - startDate / endDate：活動日期（含報到／佈置日，ISO 格式 YYYY-MM-DD）
+// - startDate / endDate：活動日期（含報到／佈置日，ISO 格式 YYYY-MM-DD）。
+//   日期慣例：多日連續活動若最後一天落在週日，endDate 一律延至下一個週一。
 // - location：地點（選填；{ en, zh, ja }）
 // - theme：當屆主題（選填；{ en, zh, ja }，日文缺官方譯名時沿用英文）
 // - website：官網（選填）
@@ -68,6 +69,22 @@ export const eventsList = [
     keywords: ['Paroto', '帕洛特', 'パロト', '專場', '単独ライブ'],
   },
   {
+    value: 'jmof-2027',
+    series: 'jmof',
+    year: 2027,
+    en: 'JMoF 2027',
+    zh: 'JMoF 2027',
+    ja: 'JMoF 2027',
+    // 官方會期 1/8（五）–1/10（日），最後一天為週日，endDate 依慣例延至週一
+    startDate: '2027-01-08',
+    endDate: '2027-01-11',
+    location: { en: 'Aichi Sky Expo, Tokoname, Aichi, Japan', zh: '日本愛知縣常滑市・Aichi Sky Expo（愛知縣國際展示場）', ja: '愛知県常滑市・Aichi Sky Expo（愛知県国際展示場）' },
+    // 主題：日文為官方譯名；中文「新特麗亞」為セントレア（Centrair）慣用譯名
+    theme: { en: 'Lost in Transit －Adrift at Centrair－', zh: 'Lost in Transit －新特麗亞漂流記－', ja: 'ロスト・イン・トランジット －セントレア漂流記－' },
+    website: 'https://www.jmof.jp/',
+    keywords: ['Japan Meeting of Furries', '日本獸聚', 'Lost in Transit', '新特麗亞漂流記', 'セントレア漂流記', 'ロスト・イン・トランジット'],
+  },
+  {
     value: 'utfg-2027',
     series: 'utfg',
     year: 2027,
@@ -80,6 +97,22 @@ export const eventsList = [
     theme: { en: 'Radiant Stellar', zh: '璀璨舞台' },
     website: 'https://www.utfg.tw/',
     keywords: ['Unfurgettable Taiwan Furry Gathering', '璀璨舞台', 'Radiant Stellar', '獸聚'],
+  },
+  {
+    value: 'siampaws-2027',
+    series: 'siampaws',
+    year: 2027,
+    en: 'SiamPaws 2027',
+    zh: 'SiamPaws 2027',
+    ja: 'SiamPaws 2027',
+    // 官方會期 7/10（六）–7/11（日），最後一天為週日，endDate 依慣例延至週一
+    startDate: '2027-07-10',
+    endDate: '2027-07-12',
+    location: { en: 'The Emerald Hotel Ratchada, Bangkok, Thailand', zh: '泰國曼谷・The Emerald Hotel Ratchada', ja: 'タイ・バンコク（The Emerald Hotel ラチャダー）' },
+    // 主題：官方僅英文名（18 歲以上、第三屆）
+    theme: { en: 'Motion Unleashed' },
+    website: 'https://www.siampaws.com/',
+    keywords: ['Motion Unleashed', '泰國獸聚'],
   },
 ]
 

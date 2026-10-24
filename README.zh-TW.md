@@ -22,7 +22,7 @@ FurTracker 共用的 metadata 清單：物種（species）與獸聚活動屆次�
 | `series` | 活動系列 ID（同一活動跨屆共用，如 `utfg`） |
 | `year` | 屆次年份 |
 | `en` / `zh` / `ja` | 各語系顯示名 |
-| `startDate` / `endDate` | 活動日期（ISO `YYYY-MM-DD`，含報到／佈置日） |
+| `startDate` / `endDate` | 活動日期（ISO `YYYY-MM-DD`，含報到／佈置日）。慣例：多日連續活動若最後一天落在週日，`endDate` 一律延至下一個週一。 |
 | `location` | 地點 `{ en, zh, ja }`（選填） |
 | `theme` | 當屆主題 `{ en, zh, ja? }`（選填，日文缺官方譯名時沿用英文） |
 | `website` | 官網（選填） |
