@@ -78,17 +78,28 @@
     "value": "paroto-2026",
     "series": "paroto",
     "year": 2026,
-    "en": "Paroto Solo Live",
-    "zh": "帕洛特專場",
-    "ja": "パロト単独ライブ",
+    "en": "Paroto Solo Concert: Star Always Be With You",
+    "zh": "帕洛特《Star Always Be With You》個人演唱會",
+    "ja": "パロト単独ライブ『Star Always Be With You』",
     "startDate": "2026-12-06",
     "endDate": "2026-12-06",
+    "location": {
+      "en": "R23 Sugar Warehouse Exhibition Center, Qiaotou, Kaohsiung, Taiwan",
+      "zh": "高雄・R23糖倉會展中心（物五會展館）",
+      "ja": "台湾・高雄（R23糖倉會展中心）"
+    },
+    "website": "https://parotobluedogoo.kktix.cc/events/cf90e692",
     "keywords": [
       "Paroto",
       "帕洛特",
       "パロト",
       "專場",
-      "単独ライブ"
+      "単独ライブ",
+      "Star Always Be With You",
+      "演唱會",
+      "R23糖倉會展中心",
+      "物五會展館",
+      "ソロコンサート"
     ]
   },
   {
