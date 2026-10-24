@@ -1,0 +1,18 @@
+{
+  "name": "furtracker-data",
+  "version": "0.1.0",
+  "description": "FurTracker shared data: species list (en / zh / ja display names + search keywords)",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "sideEffects": false,
+  "license": "UNLICENSED",
+  "private": true,
+  "keywords": [
+    "furry",
+    "furtracker",
+    "species"
+  ]
+}
