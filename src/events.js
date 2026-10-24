@@ -56,6 +56,18 @@ export const eventsList = [
     keywords: ['Soyam', '獣宴', 'ソヤム', '辦桌', 'Furgenda'],
   },
   {
+    value: 'paroto-2026',
+    series: 'paroto',
+    year: 2026,
+    en: 'Paroto Solo Live',
+    zh: '帕洛特專場',
+    ja: 'パロト単独ライブ',
+    startDate: '2026-12-06',
+    endDate: '2026-12-06',
+    // 帕洛特★Paroto（台灣獸人 VTuber）的專場演唱會（單日），地點待官方公告後補上
+    keywords: ['Paroto', '帕洛特', 'パロト', '專場', '単独ライブ'],
+  },
+  {
     value: 'utfg-2027',
     series: 'utfg',
     year: 2027,
