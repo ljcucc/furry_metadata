@@ -1,7 +1,7 @@
 {
-  "name": "furtracker-data",
+  "name": "furry-open-data",
   "version": "0.1.0",
-  "description": "FurTracker shared data: species list (en / zh / ja display names + search keywords)",
+  "description": "Furry Open Data: shared species and furry event editions lists for FurTracker and friends",
   "type": "module",
   "main": "src/index.js",
   "exports": {

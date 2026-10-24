@@ -1,6 +1,6 @@
-# furtracker-data
+# Furry Open Data
 
-Shared metadata lists for FurTracker: species and furry event editions, consumed by front-end projects (e.g. [`20U12_furtracker_ui`](https://github.com/ljcucc/furtracker_metadata_list)) as a GitHub dependency.
+Shared metadata lists for FurTracker: species and furry event editions, consumed by front-end projects (e.g. [`20U12_furtracker_ui`](https://github.com/ljcucc/furry_open_data)) as a GitHub dependency.
 
 **English** | [繁體中文（台灣）](./README.zh-TW.md)
 
@@ -8,7 +8,7 @@ Shared metadata lists for FurTracker: species and furry event editions, consumed
 
 This list is the shared source of truth for FurTracker, so entries are kept consistent across languages (naming, keywords, formats) by the maintainers.
 
-If you'd like a new species or event edition added, or a name corrected or changed, the easiest way is to [open an issue](https://github.com/ljcucc/furtracker_metadata_list/issues) — no coding needed. Just tell us what you'd like to see, ideally with whatever details you have (official name, date, website, aliases people actually use). Issues in English or Traditional Chinese (Taiwan) are both welcome, and a maintainer will take it from there.
+If you'd like a new species or event edition added, or a name corrected or changed, the easiest way is to [open an issue](https://github.com/ljcucc/furry_open_data/issues) — no coding needed. Just tell us what you'd like to see, ideally with whatever details you have (official name, date, website, aliases people actually use). Issues in English or Traditional Chinese (Taiwan) are both welcome, and a maintainer will take it from there.
 
 If you enjoy working with Git, you're also very welcome to open an issue first (or reference an existing one) and follow up with a pull request — it will be reviewed and merged after a consistency check.
 
@@ -57,7 +57,7 @@ Reference directly from GitHub in the front-end project's `package.json`:
 ```json
 {
   "dependencies": {
-    "furtracker-data": "github:ljcucc/furtracker_metadata_list"
+    "furry-open-data": "github:ljcucc/furry_open_data"
   }
 }
 ```
@@ -65,8 +65,8 @@ Reference directly from GitHub in the front-end project's `package.json`:
 ## API
 
 ```js
-import { speciesList, speciesOptions, findSpecies } from 'furtracker-data'
-import { eventsList, eventOptions, findEvent, findEventsBySeries, matchEvent } from 'furtracker-data'
+import { speciesList, speciesOptions, findSpecies } from 'furry-open-data'
+import { eventsList, eventOptions, findEvent, findEventsBySeries, matchEvent } from 'furry-open-data'
 
 // Full lists
 speciesList // 126 species
