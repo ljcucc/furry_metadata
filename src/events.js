@@ -85,6 +85,21 @@ export const eventsList = [
     keywords: ['Japan Meeting of Furries', '日本獸聚', 'Lost in Transit', '新特麗亞漂流記', 'セントレア漂流記', 'ロスト・イン・トランジット'],
   },
   {
+    value: 'furryteaparty-2027',
+    series: 'furryteaparty',
+    year: 2027,
+    en: 'FurryTeaParty 2027',
+    zh: '以茶會毛 2027',
+    ja: 'FurryTeaParty 2027',
+    // 日期採 2/27–3/2；官網目前僅公告「Spring 2027」，確定日期後再核對
+    startDate: '2027-02-27',
+    endDate: '2027-03-02',
+    location: { en: 'Kaohsiung Main Public Library, Kaohsiung, Taiwan', zh: '高雄・高雄市立圖書館總館', ja: '台湾・高雄（高雄市立図書館総館）' },
+    theme: { en: 'Taiwan Sunrise', zh: '島嶼之光' },
+    website: 'https://www.furryteaparty.com/',
+    keywords: ['FURRY TEA PARTY', 'FurryTeaParty', 'FTP', 'Taiwan Sunrise', '島嶼之光', '以茶會毛'],
+  },
+  {
     value: 'utfg-2027',
     series: 'utfg',
     year: 2027,
