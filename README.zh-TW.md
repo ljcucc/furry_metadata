@@ -1,7 +1,5 @@
 # Furry Metadata
 
-Furry Metadata 共用的 metadata 清單：物種（species）與獸聚活動屆次（events），供 FurTracker 前端專案（如 `20U12_furtracker_ui`）以 GitHub 依賴方式引用。
-
 [English](./README.md) | **繁體中文（台灣）**
 
 ## 協作方式

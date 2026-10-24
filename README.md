@@ -1,7 +1,5 @@
 # Furry Metadata
 
-Shared metadata lists for FurTracker: species and furry event editions, consumed by front-end projects (e.g. [`20U12_furtracker_ui`](https://github.com/ljcucc/furry_metadata)) as a GitHub dependency.
-
 **English** | [繁體中文（台灣）](./README.zh-TW.md)
 
 ## Contributing
