@@ -6,13 +6,11 @@ FurTracker 共用的 metadata 清單：物種（species）與獸聚活動屆次�
 
 ## 協作方式
 
-想新增物種、新增活動場次，或修改名稱？**請先[開 issue](https://github.com/ljcucc/furtracker_metadata_list/issues)討論，不要直接改資料**，讓各語系的命名、keywords、格式維持一致。錯字等小修正的 PR 仍歡迎，但請附上（或先開）對應的 issue。
+這份清單是 FurTracker 的共用資料來源，命名、keywords、資料格式由維護者把關，讓各語系維持一致。
 
-注意事項：
+想新增物種、新增活動場次，或修改名稱的話，最簡單的方式就是[開個 issue](https://github.com/ljcucc/furtracker_metadata_list/issues)跟我們說——不用會寫程式，把想要的內容描述一下就好，可以的話附上手邊有的資訊（官方名稱、日期、官網、大家實際在用的別名）。用英文或繁體中文（台灣）撰寫都可以，後續就交給維護者處理。
 
-- 物種：`value` 用 kebab-case 英文 ID（如 `fennec-fox`）；顯示名提供 `en` / `zh` / `ja`。
-- 活動：一屆一筆；同一活動跨屆沿用既有的 `series` ID（如 `utfg`）；日期用 ISO `YYYY-MM-DD`。
-- 日文顯示名以 `en` 為基準翻譯（見 UI 專案 AGENTS.md 日文翻譯守則）；沒有官方日文名的活動，`ja` 保留官方英文名，別名放 `keywords`。
+喜歡動 Git 的話，也歡迎先開（或先找一個）issue，再送 pull request——我們會檢查格式一致性後合併。
 
 ## events 資料格式
 

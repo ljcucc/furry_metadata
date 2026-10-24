@@ -6,13 +6,11 @@ Shared metadata lists for FurTracker: species and furry event editions, consumed
 
 ## Contributing
 
-Want to add a species, add an event edition, or fix/change a name? **Please [open an issue](https://github.com/ljcucc/furtracker_metadata_list/issues) instead of editing the data directly**, so entries stay consistent (naming, keywords, formats) across languages. Direct PRs for typo-level fixes are still welcome if an issue exists or is referenced.
+This list is the shared source of truth for FurTracker, so entries are kept consistent across languages (naming, keywords, formats) by the maintainers.
 
-Guidelines:
+If you'd like a new species or event edition added, or a name corrected or changed, the easiest way is to [open an issue](https://github.com/ljcucc/furtracker_metadata_list/issues) — no coding needed. Just tell us what you'd like to see, ideally with whatever details you have (official name, date, website, aliases people actually use). Issues in English or Traditional Chinese (Taiwan) are both welcome, and a maintainer will take it from there.
 
-- Species: use a kebab-case English `value` (e.g. `fennec-fox`); display names in `en` / `zh` / `ja`.
-- Events: one entry per edition; reuse the existing `series` ID across editions of the same event (e.g. `utfg`); dates in ISO `YYYY-MM-DD`.
-- Japanese display names follow `en` as the source (see the translation rules in the UI project's AGENTS.md); for event names without an official Japanese translation, keep the official English name and put aliases in `keywords`.
+If you enjoy working with Git, you're also very welcome to open an issue first (or reference an existing one) and follow up with a pull request — it will be reviewed and merged after a consistency check.
 
 ## events data format
 
