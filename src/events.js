@@ -128,6 +128,21 @@ export const eventsList = [
     keywords: ['FURRY TEA PARTY', 'FurryTeaParty', 'FTP', 'Taiwan Sunrise', '島嶼之光', '以茶會毛'],
   },
   {
+    value: 'myfurcon-2027',
+    series: 'myfurcon',
+    year: 2027,
+    en: 'MYFurCon 2027',
+    zh: 'MYFurCon 2027',
+    ja: 'MYFurCon 2027',
+    // 官方會期 4/24（六）–4/25（日），最後一天為週日，endDate 依慣例延至週一
+    startDate: '2027-04-24',
+    endDate: '2027-04-26',
+    location: { en: 'Hotel Armada Petaling Jaya, Selangor, Malaysia', zh: '馬來西亞雪蘭莪・Petaling Jaya（Hotel Armada）', ja: 'マレーシア・ペタリングジャヤ（Hotel Armada Petaling Jaya）' },
+    theme: { en: 'FurGear' },
+    website: 'https://myfur.org/',
+    keywords: ['MYFur', 'Malaysia Furry Convention', '馬來西亞', 'FurGear'],
+  },
+  {
     value: 'utfg-2027',
     series: 'utfg',
     year: 2027,
