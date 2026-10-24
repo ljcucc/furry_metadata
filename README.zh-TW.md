@@ -1,6 +1,6 @@
-# Furry Open Data
+# Furry Metadata
 
-Furry Open Data 共用的 metadata 清單：物種（species）與獸聚活動屆次（events），供 FurTracker 前端專案（如 `20U12_furtracker_ui`）以 GitHub 依賴方式引用。
+Furry Metadata 共用的 metadata 清單：物種（species）與獸聚活動屆次（events），供 FurTracker 前端專案（如 `20U12_furtracker_ui`）以 GitHub 依賴方式引用。
 
 [English](./README.md) | **繁體中文（台灣）**
 
@@ -8,7 +8,7 @@ Furry Open Data 共用的 metadata 清單：物種（species）與獸聚活動�
 
 這份清單是 FurTracker 的共用資料來源，命名、keywords、資料格式由維護者把關，讓各語系維持一致。
 
-想新增物種、新增活動場次，或修改名稱的話，最簡單的方式就是[開個 issue](https://github.com/ljcucc/furry_open_data/issues)跟我們說——不用會寫程式，把想要的內容描述一下就好，可以的話附上手邊有的資訊（官方名稱、日期、官網、大家實際在用的別名）。用英文或繁體中文（台灣）撰寫都可以，後續就交給維護者處理。
+想新增物種、新增活動場次，或修改名稱的話，最簡單的方式就是[開個 issue](https://github.com/ljcucc/furry_metadata/issues)跟我們說——不用會寫程式，把想要的內容描述一下就好，可以的話附上手邊有的資訊（官方名稱、日期、官網、大家實際在用的別名）。用英文或繁體中文（台灣）撰寫都可以，後續就交給維護者處理。
 
 喜歡動 Git 的話，也歡迎先開（或先找一個）issue，再送 pull request——我們會檢查格式一致性後合併。
 
@@ -66,7 +66,7 @@ matchEvent('Furnity 2026 Taiwan') // 子字串比對也可以
 ```json
 {
   "dependencies": {
-    "furry-open-data": "github:ljcucc/furry_open_data"
+    "furry_metadata": "github:ljcucc/furry_metadata"
   }
 }
 ```
@@ -74,8 +74,8 @@ matchEvent('Furnity 2026 Taiwan') // 子字串比對也可以
 ## API
 
 ```js
-import { speciesList, speciesOptions, findSpecies } from 'furry-open-data'
-import { eventsList, eventOptions, findEvent, findEventsBySeries, matchEvent } from 'furry-open-data'
+import { speciesList, speciesOptions, findSpecies } from 'furry_metadata'
+import { eventsList, eventOptions, findEvent, findEventsBySeries, matchEvent } from 'furry_metadata'
 
 // 完整清單
 speciesList // 126 筆物種
