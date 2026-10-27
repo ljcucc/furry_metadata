@@ -84,6 +84,17 @@
     ]
   },
   {
+    "value": "puppy",
+    "en": "Puppy",
+    "zh": "狗勾",
+    "ja": "わんこ",
+    "keywords": [
+      "pupper",
+      "doggo",
+      "woofer"
+    ]
+  },
+  {
     "value": "husky",
     "en": "Husky",
     "zh": "哈士奇",
@@ -773,6 +784,19 @@
     "ja": "ドラゴン",
     "keywords": [
       "drake"
+    ]
+  },
+  {
+    "value": "dutch-angel-dragon",
+    "en": "Dutch Angel Dragon",
+    "zh": "達馳天使龍",
+    "ja": "ダッチエンジェルドラゴン",
+    "keywords": [
+      "dutchie",
+      "dutchad",
+      "dad",
+      "angel dragon",
+      "荷蘭天使龍"
     ]
   },
   {
